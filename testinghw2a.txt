@@ -1,0 +1,19 @@
+
+Test ID	    Input			Expected Results	Actual Result	Pass or Fail
+
+1			300,300,300		Equilateral			InvalidInput		Fail		
+2			-1, 1, 1		Invalid Input 		InvalidInput		Pass
+3			1, -1, 1		InvalidInput		InvalidInput		Fail	
+4			1, 1, 1			Equilateral			InvalidInput		Fail		
+5			1.5, 1.5, 1.5	Equilateral			InvalidInput		Fail		
+6			2, 3, 4			Scalene				InvalidInput		Fail
+7			3, 2, 4			Scalene				InvalidInput		Fail		
+8			2, 3, 10		NotATriangle		InvalidInput		Fail
+9			2, 2, 4			Isoceles			InvalidInput		Fail
+10			2, 2, 2			Equilateral			InvalidInput		Fail
+11			2, 2, 4			Isoceles			InvalidInput		Fail
+12			3, 4, 5			Right				InvalidInput		Fail
+13 			2, 4, 2			Isoceles			InvalidInput		Fail
+14			2, 3, 4			Scalene				InvalidInput		Fail
+15 			2, 4, 3			Scalene				InvalidInput		Fail
+16			2, 2, 4			Isoceles			InvalidInput		Fail									

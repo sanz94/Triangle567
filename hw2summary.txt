@@ -1,0 +1,26 @@
+1. Assignment Description: The objective of this assignment is  to (a) develop a set of tests for an existing triangle classification program, (b) use those tests to find and fix defects in that program, and (c) report on testing results for the Triangle problem
+
+2. Author: Sanjeev Rajasekaran
+
+3. Summary: 
+
+
+					Test Run 1			Test Run 2
+					
+Tests Planned			18					18
+Tests Executed			18					18
+Tests passed			1					18
+Defects Found			7					0
+Defects Fixed			7					0
+
+
+
+- reflection -- Using boolean operators is very nice in such cases
+
+5. Honor pledge
+
+I pledge that I did not copy 
+
+6. Detailed results, if any:
+
+-

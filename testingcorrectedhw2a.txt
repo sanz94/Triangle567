@@ -1,0 +1,19 @@
+
+Test ID	    Input			Expected Results	Actual Result	Pass or Fail
+
+1			300,300,300		Equilateral			Equilateral			Pass		
+2			-1, 1, 1		Invalid Input 		InvalidInput		Pass
+3			1, -1, 1		InvalidInput		InvalidInput		Pass	
+4			1, 1, 1			Equilateral			Equilateral			Pass		
+5			1.5, 1.5, 1.5	Equilateral			Equilateral			Pass		
+6			2, 3, 4			Scalene				Scalene				Pass
+7			3, 2, 4			Scalene				Scalene				Pass		
+8			2, 3, 10		NotATriangle		NotATriangle		Pass
+9			2, 2, 4			Isoceles			Isoceles			Pass
+10			2, 2, 2			Equilateral			Equilateral			Pass
+11			2, 2, 4			Isoceles			Isoceles			Pass
+12			3, 4, 5			Right				Right				Pass
+13 			2, 4, 2			Isoceles			Isoceles			Pass
+14			2, 3, 4			Scalene				Scalene				Pass
+15 			2, 4, 3			Scalene				Scalene				Pass
+16			2, 2, 4			Isoceles			Isoceles			Pass								
